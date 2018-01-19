@@ -1,0 +1,19 @@
+<?xml version="1.0" standalone="yes"?>
+<DATAPACKET Version="2.0">
+	<METADATA>
+		<FIELDS>
+			<FIELD attrname="LAST_NAME" fieldtype="string" WIDTH="20"/>
+			<FIELD attrname="FIRST_NAME" fieldtype="string" WIDTH="20"/>			
+			<FIELD attrname="CITY" fieldtype="string" WIDTH="20"/>
+			<FIELD attrname="STATE" fieldtype="string" WIDTH="2"/>
+		</FIELDS>
+		<PARAMS LCID="1033"/>
+	</METADATA>
+	<ROWDATA>
+		<ROW LAST_NAME="Davis" FIRST_NAME="Jennifer" CITY="Wellesley" STATE="MA"/>
+		<ROW LAST_NAME="Jones" FIRST_NAME="Arthur" CITY="Los Altos" STATE="CA"/>
+		<ROW LAST_NAME="Parker" FIRST_NAME="Debra" CITY="Atherton" STATE="CA"/>
+		<ROW LAST_NAME="Sawyer" FIRST_NAME="Dave" CITY="Los Altos" STATE="CA"/>
+		<ROW LAST_NAME="White" FIRST_NAME="Cindy" CITY="Los Altos" STATE="CA"/>
+	</ROWDATA>
+</DATAPACKET>
