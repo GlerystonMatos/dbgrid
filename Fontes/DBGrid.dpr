@@ -13,7 +13,8 @@ program DBGrid;
 uses
   Vcl.Forms,
   Principal in 'Principal.pas' {frmPrincipal},
-  DBGridZebrado in 'DBGridZebrado.pas' {frmDBGridZebrado};
+  DBGridZebrado in 'DBGridZebrado.pas' {frmDBGridZebrado},
+  DBGridOrdenacaoColunas in 'DBGridOrdenacaoColunas.pas' {frmDBGridOrdenacaoColunas};
 
 {$R *.res}
 
