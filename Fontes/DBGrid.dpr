@@ -15,7 +15,8 @@ uses
   Principal in 'Principal.pas' {frmPrincipal},
   DBGridZebrado in 'DBGridZebrado.pas' {frmDBGridZebrado},
   DBGridOrdenacaoColunas in 'DBGridOrdenacaoColunas.pas' {frmDBGridOrdenacaoColunas},
-  DBGridPickList in 'DBGridPickList.pas' {frmDBGridPickList};
+  DBGridPickList in 'DBGridPickList.pas' {frmDBGridPickList},
+  DBGridLookup in 'DBGridLookup.pas' {frmDBGridLookup};
 
 {$R *.res}
 

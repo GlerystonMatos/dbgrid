@@ -1,0 +1,35 @@
+<?xml version="1.0" standalone="yes"?>
+<DATAPACKET Version="2.0">
+	<METADATA>
+		<FIELDS>
+			<FIELD attrname="VendorNo" fieldtype="r8"/>
+			<FIELD attrname="VendorName" fieldtype="string" WIDTH="30"/>
+		</FIELDS>
+		<PARAMS DEFAULT_ORDER="1" PRIMARY_KEY="1" LCID="1033"/>
+	</METADATA>
+	<ROWDATA>
+		<ROW VendorNo="2014" VendorName="Cacor Corporation"/>
+		<ROW VendorNo="2641" VendorName="Underwater"/>
+		<ROW VendorNo="2674" VendorName="J.W.  Luscher Mfg."/>
+		<ROW VendorNo="3511" VendorName="Scuba Professionals"/>
+		<ROW VendorNo="3819" VendorName="Divers&apos;  Supply Shop"/>
+		<ROW VendorNo="3820" VendorName="Techniques"/>
+		<ROW VendorNo="4521" VendorName="Perry Scuba"/>
+		<ROW VendorNo="4642" VendorName="Beauchat, Inc."/>
+		<ROW VendorNo="4651" VendorName="Amor Aqua"/>
+		<ROW VendorNo="4652" VendorName="Aqua Research Corp."/>
+		<ROW VendorNo="4655" VendorName="B&amp;K Undersea Photo"/>
+		<ROW VendorNo="4681" VendorName="Diving International Unlimited"/>
+		<ROW VendorNo="4682" VendorName="Nautical Compressors"/>
+		<ROW VendorNo="5385" VendorName="Glen Specialties, Inc."/>
+		<ROW VendorNo="5641" VendorName="Dive Time"/>
+		<ROW VendorNo="6415" VendorName="Undersea Systems, Inc."/>
+		<ROW VendorNo="6451" VendorName="Felix Diving"/>
+		<ROW VendorNo="6452" VendorName="Central Valley Skin Divers"/>
+		<ROW VendorNo="6481" VendorName="Parkway Dive Shop"/>
+		<ROW VendorNo="6482" VendorName="Marine Camera &amp; Dive"/>
+		<ROW VendorNo="6588" VendorName="Dive Canada"/>
+		<ROW VendorNo="7382" VendorName="Dive &amp; Surf"/>
+		<ROW VendorNo="7685" VendorName="Fish Research Labs"/>
+	</ROWDATA>
+</DATAPACKET>

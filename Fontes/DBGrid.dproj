@@ -104,6 +104,10 @@
             <Form>frmDBGridPickList</Form>
             <FormType>dfm</FormType>
         </DCCReference>
+        <DCCReference Include="DBGridLookup.pas">
+            <Form>frmDBGridLookup</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
         <BuildConfiguration Include="Release">
             <Key>Cfg_2</Key>
             <CfgParent>Base</CfgParent>

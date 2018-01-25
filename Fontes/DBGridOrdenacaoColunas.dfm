@@ -25,6 +25,7 @@ object frmDBGridOrdenacaoColunas: TfrmDBGridOrdenacaoColunas
     Top = 0
     Width = 639
     Height = 309
+    Align = alClient
     DataSource = DataSource
     TabOrder = 0
     TitleFont.Charset = DEFAULT_CHARSET

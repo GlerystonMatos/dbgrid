@@ -5,16 +5,18 @@ interface
 uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
   Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.Buttons, DBGridZebrado, DBGridOrdenacaoColunas,
-  DBGridPickList;
+  DBGridPickList, DBGridLookup;
 
 type
   TfrmPrincipal = class(TForm)
     btnGridEfeitoZebrado: TBitBtn;
     btnGridOrdenacaoColunas: TBitBtn;
     btnGridComPickList: TBitBtn;
+    btnGridComLookup: TBitBtn;
     procedure btnGridEfeitoZebradoClick(Sender: TObject);
     procedure btnGridOrdenacaoColunasClick(Sender: TObject);
     procedure btnGridComPickListClick(Sender: TObject);
+    procedure btnGridComLookupClick(Sender: TObject);
   private
     { Private declarations }
   public
@@ -27,6 +29,18 @@ var
 implementation
 
 {$R *.dfm}
+
+procedure TfrmPrincipal.btnGridComLookupClick(Sender: TObject);
+var
+  frmDBGridLookup: TfrmDBGridLookup;
+begin
+  frmDBGridLookup := TfrmDBGridLookup.Create(Self);
+  try
+    frmDBGridLookup.ShowModal;
+  finally
+    FreeAndNil(frmDBGridLookup);
+  end;
+end;
 
 procedure TfrmPrincipal.btnGridComPickListClick(Sender: TObject);
 var
