@@ -1,9 +1,9 @@
-object frmDBGridOrdenacaoColunas: TfrmDBGridOrdenacaoColunas
+object frmDBGridPickList: TfrmDBGridPickList
   Left = 0
   Top = 0
   BorderIcons = [biSystemMenu]
   BorderStyle = bsSingle
-  Caption = 'DBGrid Ordena'#231#227'o Colunas'
+  Caption = 'DBGrid Pick List'
   ClientHeight = 309
   ClientWidth = 639
   Color = clBtnFace
@@ -34,6 +34,55 @@ object frmDBGridOrdenacaoColunas: TfrmDBGridOrdenacaoColunas
     TitleFont.Style = []
     OnDrawColumnCell = DBGridDrawColumnCell
     OnTitleClick = DBGridTitleClick
+    Columns = <
+      item
+        Expanded = False
+        FieldName = 'LAST_NAME'
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = 'FIRST_NAME'
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = 'CITY'
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = 'STATE'
+        PickList.Strings = (
+          'AC'
+          'AL'
+          'AP'
+          'AM'
+          'BA'
+          'CE'
+          'DF'
+          'ES'
+          'GO'
+          'MA'
+          'MT'
+          'MS'
+          'MG'
+          'PA'
+          'PB'
+          'PR'
+          'PE'
+          'PI'
+          'RJ'
+          'RN'
+          'RS'
+          'RO'
+          'RR'
+          'SC'
+          'SP'
+          'SE'
+          'TO')
+        Visible = True
+      end>
   end
   object ClientDataSet: TClientDataSet
     Aggregates = <>

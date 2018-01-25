@@ -14,7 +14,8 @@ uses
   Vcl.Forms,
   Principal in 'Principal.pas' {frmPrincipal},
   DBGridZebrado in 'DBGridZebrado.pas' {frmDBGridZebrado},
-  DBGridOrdenacaoColunas in 'DBGridOrdenacaoColunas.pas' {frmDBGridOrdenacaoColunas};
+  DBGridOrdenacaoColunas in 'DBGridOrdenacaoColunas.pas' {frmDBGridOrdenacaoColunas},
+  DBGridPickList in 'DBGridPickList.pas' {frmDBGridPickList};
 
 {$R *.res}
 
